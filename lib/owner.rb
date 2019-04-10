@@ -18,8 +18,12 @@ class Owner
     @@all
   end
   
+  def count
+    @@count
+  end
+  
   def species
-    
+    @species
   end  
   
   def buy_cat(name)
