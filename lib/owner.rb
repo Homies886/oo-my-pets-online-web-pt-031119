@@ -33,7 +33,8 @@ class Owner
   end  
   
   def say_species
-    
+    "I am a #{@species}"
+  end  
   
   def buy_cat(name)
     new_cat = Cat.new(name)
@@ -70,6 +71,6 @@ class Owner
   end 
   
   def list_pets
-    return "I have #{@pets[:fishes].count} fish, #{@pets[:dogs].count} dog(s), and #{@pets[:cats].count} cat(s)."
+    "I have #{@pets[:fishes].count} fish, #{@pets[:dogs].count} dog(s), and #{@pets[:cats].count} cat(s)."
   end  
 end
