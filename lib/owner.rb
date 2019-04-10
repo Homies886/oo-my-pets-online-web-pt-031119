@@ -7,6 +7,7 @@ class Owner
   
   @@all = []
   @@count = 0
+  @@reset_all = @@all.clear
   
   def initialize(name)
     @name = name
