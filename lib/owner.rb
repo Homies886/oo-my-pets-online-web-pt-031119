@@ -60,5 +60,9 @@ class Owner
       v.each{ |pet| pet.mood = "nervous" }
       v.clear
     end
+  end 
+  
+  def list_pets
+    
   end  
 end
