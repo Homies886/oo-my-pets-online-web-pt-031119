@@ -9,10 +9,10 @@ class Owner
   @@count = 0
   @@reset_all = (@@count = 0)
   
-  def initialize(name)
+  def initialize(species)
     @@all << self
     @pets = {fishes: [], cats: [], dogs: []}
-    @species
+    @species = species
     @@count += 1
   end
   
