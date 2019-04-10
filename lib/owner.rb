@@ -21,15 +21,15 @@ class Owner
     
   end  
   
-  def buy_cat
-    
+  def buy_cat(name)
+    new_cat = Cat.new(name)
   end
   
-  def buy_dog
-    
+  def buy_dog(name)
+    new_dog = Dog.new(name)
   end
   
-  def buy_fish
-    
+  def buy_fish(name)
+    new_fish = Fish.new(name)
   end  
 end
