@@ -25,6 +25,10 @@ class Owner
     @@count
   end
   
+  def reset_all
+    @@reset_all
+  end  
+  
   def species
     @species
   end  
