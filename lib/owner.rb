@@ -15,7 +15,7 @@ class Owner
     @@all
   end
   
-  def species
+  def species(specy)
     
   end  
   
