@@ -1,5 +1,3 @@
-require 'pry'
-
 class Owner
   
   attr_accessor :name, :pets
@@ -7,7 +5,6 @@ class Owner
   
   @@all = []
   @@count = 0
-  @@reset_all = (@@count = 0)
   
   def initialize(species)
     @@all << self
